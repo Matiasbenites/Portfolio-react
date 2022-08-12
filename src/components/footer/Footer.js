@@ -16,13 +16,25 @@ const Footer = () => {
       <div className="footer-sns">
         <div className="design-by">Design by Benites Matias</div>
         <div className="sns-links">
-          <a href="" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/matias-benites/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-linkedin linkedin"></i>
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://github.com/Matiasbenites"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-github github"></i>
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://www.instagram.com/matiasbenitess/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-instagram instagram"></i>
           </a>
         </div>
