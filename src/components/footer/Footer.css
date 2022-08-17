@@ -55,3 +55,14 @@
   padding-bottom: 10px;
   border-bottom: 4px solid transparent;
 }
+
+.linkedin:hover, .instagram:hover, .github:hover {
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.design-by{
+  font-size: 18px;
+  padding-left: 50px;
+  color: white;
+}

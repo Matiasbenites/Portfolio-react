@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Footer.css";
 
@@ -6,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-info">
-        <h1>Your name</h1>
+        <h1>Benites Matias</h1>
         <p>Based in Corrientes,AR</p>
       </div>
       <div className="footer-contact">
@@ -19,21 +18,21 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/matias-benites/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             <i className="fab fa-linkedin linkedin"></i>
           </a>
           <a
             href="https://github.com/Matiasbenites"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             <i className="fab fa-github github"></i>
           </a>
           <a
             href="https://www.instagram.com/matiasbenitess/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             <i className="fab fa-instagram instagram"></i>
           </a>
