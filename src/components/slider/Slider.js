@@ -3,7 +3,7 @@ import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import { slidesToShowPlugin } from "@brainhubeu/react-carousel";
 import Slides from "./Slides";
-import "./Slider.css"
+import "./Slider.css";
 const Slider = () => {
   return (
     <div className="carousel-container">
@@ -19,16 +19,30 @@ const Slider = () => {
               numberOfSlides: 3,
             },
           },
-         
-          'arrows',
-          'infinite',
-          'centered',
-          'clickToChange'
+
+          "arrows",
+          "infinite",
+          "centered",
+          "clickToChange",
         ]}
         animationSpeed={200}
         offset={50}
         itemWidth={400}
         slides={Slides}
+        breakpoints={{
+          960: {
+            plugins: [
+              {
+                resolve: slidesToShowPlugin,
+                options: {
+                  numberOfSlides: 1,
+                },
+                arrows: false,
+                itemWidth: 250, 
+              },
+            ],
+          },
+        }}
       />
     </div>
   );
